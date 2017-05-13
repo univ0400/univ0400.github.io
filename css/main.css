@@ -1,0 +1,19 @@
+* {
+  /*padding: 5px 10px;*/
+}
+
+.page-header {
+  padding: 0 50px;
+}
+
+.navbar {
+  padding: 0 50px;
+}
+
+#content {
+  padding: 0 50px;
+}
+
+#content-header {
+  text-align: center;
+}

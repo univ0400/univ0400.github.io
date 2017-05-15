@@ -2,18 +2,99 @@
   /*padding: 5px 10px;*/
 }
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+  padding: 0 15%;
+  /*background-color: violet;*/
+  background-image: url("./../images/lamp2.jpg");
+  background-repeat: no-repeat;
+  background-position: -130px 220px;
+}
+
 .page-header {
-  padding: 0 50px;
+  padding: 0 2%;
 }
 
 .navbar {
-  padding: 0 50px;
+  padding: 0 2%;
 }
 
-#content {
-  padding: 0 50px;
-}
+/*#content {
+  padding: 0 2%;
+  border-radius: 4px;
+}*/
 
 #content-header {
   text-align: center;
+}
+
+.book {
+  display: flex;
+}
+
+.book div {
+  padding: 5px;
+}
+
+.book div img {
+  height: 400px;
+}
+
+
+
+
+
+/*TABS*/
+/* custom inclusion of right, left and below tabs */
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-left > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a{
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
 }
